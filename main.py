@@ -1,10 +1,9 @@
 from utils import greet, farewell
 
-def run_app():
+def run_app() -> int:
     print(greet("Alice"))
-    #commeted below function
-    # print(farewell("Bob"))
-    print("Done"
+    print(farewell("Bob"))
+    return "done"
 
 
 if __name__ == "__main__":
