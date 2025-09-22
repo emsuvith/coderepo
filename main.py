@@ -7,4 +7,5 @@ def greet_and_farewell() -> str:
 
 
 if __name__ == "__main__":
-    greet_and_farewell()
+    # greet_and_farewell()
+    return 0
