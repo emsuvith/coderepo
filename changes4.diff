@@ -1,0 +1,17 @@
+diff --git a/main.py b/main.py
+index 7811e97..baad51b 100644
+--- a/main.py
++++ b/main.py
+@@ -1,10 +1,10 @@
+ from utils import greet, farewell
+ 
+-def run_app() -> int:
++def greet_and_farewell() -> str:
+     print(greet("Alice"))
+     print(farewell("Bob"))
+     return "done"
+ 
+ 
+ if __name__ == "__main__":
+-    run_app()
++    greet_and_farewell()

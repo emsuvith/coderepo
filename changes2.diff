@@ -1,0 +1,12 @@
+diff --git a/main.py b/main.py
+index c1c650c..eae34d8 100644
+--- a/main.py
++++ b/main.py
+@@ -4,6 +4,7 @@ def run_app():
+     print(greet("Alice"))
+     #commeted below function
+     # print(farewell("Bob"))
++    print("Done"
+ 
+ 
+ if __name__ == "__main__":

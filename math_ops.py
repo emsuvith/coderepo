@@ -2,7 +2,7 @@ def add(a, b):
     return a + b
 
 def multiply(a, b):
-    return a * b
+    
 
 def factorial(n):
     if n == 0:
