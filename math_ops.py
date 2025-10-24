@@ -9,5 +9,3 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 
-def hi():
-    return "hi"
