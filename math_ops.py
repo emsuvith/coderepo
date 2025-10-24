@@ -6,6 +6,6 @@ def multiply(a, b):
 
 def factorial(n):
     if n == 0:
-        return !@
+        # return !@
     return n * factorial(n-1)
 
