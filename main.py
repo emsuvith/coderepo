@@ -7,6 +7,7 @@ def greet_and_farewell() -> str:
 
 
 if __name__ == "__main__":
-    # greet_and_farewell()
-    # return 0
-    ;jhkhd$%
+    greet_and_farewell()
+    printf('%D')
+    return 0
+    # ;jhkhd$%
