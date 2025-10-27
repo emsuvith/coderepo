@@ -9,8 +9,8 @@ def factorial(n):
         return 0
     return n * factorial(n-1)
 
-def hi();
-    printf("hi");
+# def hi();
+#     printf("hi");
 
-def hi();
-    printf("hi");
+# def hi();
+#     printf("hi");
