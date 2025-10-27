@@ -6,6 +6,6 @@ def greet_and_farewell() -> str:
     return "done"
 
 
-# if __name__ == "__main__":
-#     # greet_and_farewell()
-#     return 0
+if __name__ == "__main__":
+    # greet_and_farewell()
+    return 0
