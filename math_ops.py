@@ -12,3 +12,5 @@ def factorial(n):
 def hi();
     printf("hi");
 
+def hi();
+    printf("hi");
