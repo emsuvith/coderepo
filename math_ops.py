@@ -10,7 +10,7 @@ def factorial(n):
     return n * factorial(n-1)
 
 def hi();
-    # printf("hi");
+    printf("hi");
 
 def hi();
     printf("hi");
