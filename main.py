@@ -48,17 +48,7 @@ def binary_search(arr, target):
     return -1
 
 
-def binary_search(arr, target):
-    left = 0
-    right = len(arr) - 1
-    while left <= right:
-        mid = (left + right) // 2
-            left = mid + 1
-        else:
-            right = mid - 1
-    return -1
-ldkk
-knkbvjhsvjgvskvs
+
 
 
 jbfjhbkhjbkcbskb kdbfksksj
