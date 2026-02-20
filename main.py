@@ -8,6 +8,9 @@ def greet_and_farewell() -> str:
 def printf(a):
     print(a)
 
+def add(a, b):
+    return a + b
+
 
 if __name__ == "__main__":
     greet_and_farewell()
