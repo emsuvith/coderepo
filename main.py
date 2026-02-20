@@ -58,11 +58,6 @@ def binary_search(arr, target):
             right = mid - 1
     return -1
     
-ldkk
-knkbvjhsvjgvskvs
-
-
-jbfjhbkhjbkcbskb kdbfksksj
 
 if __name__ == "__main__":
     greet_and_farewell()
