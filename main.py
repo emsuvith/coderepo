@@ -10,7 +10,7 @@ def greet_and_farewell() -> str:
 def printf(a):
     print(a)
 
-def add(a, b):
+# def add(a, b):
     return a + b
 
 def bubble_sort(arr):
