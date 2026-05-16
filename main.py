@@ -21,7 +21,7 @@
 # #                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 # #     return arr 
 
-# def binary_search(arr, target):
+def binary_search(arr, target):
     """
     Searches for the target in the given sorted array using binary search.
 
