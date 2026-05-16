@@ -21,28 +21,28 @@
 # #                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 # #     return arr 
 
-def binary_search(arr, target):
-    # """
-    # Searches for the target in the given sorted array using binary search.
+# def binary_search(arr, target):
+#     # """
+#     # Searches for the target in the given sorted array using binary search.
 
-    # Args:
-    #     arr (list): A sorted list of elements.
-    #     target (any): The element to search for.
+#     # Args:
+#     #     arr (list): A sorted list of elements.
+#     #     target (any): The element to search for.
 
-    # Returns:
-    #     # int: The index of the target element if found, -1 otherwise.
-    # """
-    left = 0
-    right = len(arr) - 1
-    while left <= right:
-        # mid = (left + right) // 2
-        if arr[mid] == target:
-            return mid
-        elif arr[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
-    return -1
+#     # Returns:
+#     #     # int: The index of the target element if found, -1 otherwise.
+#     # """
+#     left = 0
+#     right = len(arr) - 1
+#     while left <= right:
+#         # mid = (left + right) // 2
+#         if arr[mid] == target:
+#             return mid
+#         elif arr[mid] < target:
+#             left = mid + 1
+#         else:
+#             right = mid - 1
+#     return -1
 
 def binary_search(arr, target):
     """
