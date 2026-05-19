@@ -9,3 +9,5 @@ function multiply(a, b) {
 function greet(name) {
     return `Hello, ${name}!`;
 }
+
+funn
