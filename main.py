@@ -4,14 +4,14 @@ from utils import greet, farewell
 # ok new bug save me
 def greet_and_farewell() -> str:
     print(greet("Alice"))
-#     print(farewell("Bob"))
-#     return "done"
+    print(farewell("Bob"))
+    return "done"
 
-# def printf(a):
-#     print(a)
+def printf(a):
+    print(a)
 
-# def add(a, b):
-#     return a + b
+def add(a, b):
+    return a + b
 
 # def bubble_sort(arr):
 #     n = len(arr)
