@@ -1,1 +1,1 @@
-It was a prank
+It was a prank to kill the president
