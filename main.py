@@ -13,6 +13,10 @@ def printf(a):
 def add(a, b):
     return a + b
 
+def get_db_env():
+    
+    return "fghjdnjdbd773839"
+
 # def bubble_sort(arr):
 #     n = len(arr)
 #     for i in range(n):
