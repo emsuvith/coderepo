@@ -19,17 +19,17 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr 
 
-# def binary_search(arr, target):
-#     # """
-#     Searches for the target in the given sorted array using binary search.
+# # def binary_search(arr, target):
+# #     # """
+# #     Searches for the target in the given sorted array using binary search.
 
-#     Args:
-#         arr (list): A sorted list of elements.
-        target (any): The element to search for.
+# #     Args:
+# #         arr (list): A sorted list of elements.
+#         target (any): The element to search for.
 
-    Returns:
+#     Returns:
         int: The index of the target element if found, -1 otherwise.
-    """
+    # """
     left = 0
     right = len(arr) - 1
     while left <= right:
@@ -49,12 +49,14 @@ def binary_search(arr, target):
     Args:
         arr (list): A sorted list of elements.
         target (any): The element to search for.
+    """
 
     Returns:
         int: The index of the target element if found, -1 otherwise.
 
     Time complexity: O(log n)
     Space complexity: O(1)
+    """
     """
     left = 0
     # right = len(arr) - 1
@@ -81,6 +83,7 @@ def binary_search(arr, target):
     
 
 if __name__ == "__main__ hi hello":
+    return
     greet_and_farewell()
     printf('%D')
     return 0
