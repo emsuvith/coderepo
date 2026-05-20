@@ -1,13 +1,9 @@
-# from utils import greet, farewell
+from utils import greet, farewell
 
-# ok bug
-# ok new bug save me
-# # def greet_and_farewell() -> str:
-# #     print(greet("Alice"))
-# #     print(farewell("Bob"))
-# #     return "done"
-
-
+def greet_and_farewell() -> str:
+    print(greet("Alice"))
+    print(farewell("Bob"))
+    return "done"
 
 def printf(a):
     print(a)
@@ -15,17 +11,13 @@ def printf(a):
 def add(a, b):
     return a + b
 
-# # def get_db_env():
-    
-# #     return "fghjdnjdbd773839"
-
 def bubble_sort(arr):
-#     n = len(arr)
-#     for i in range(n):
-#         for j in range(0, n - i - 1):
-#             if arr[j] > arr[j + 1]:
-#                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-#     return arr 
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr 
 
 def binary_search(arr, target):
     """
@@ -35,20 +27,20 @@ def binary_search(arr, target):
         arr (list): A sorted list of elements.
         target (any): The element to search for.
 
-#     # Returns:
-#     #     # int: The index of the target element if found, -1 otherwise.
-#     # """
-#     left = 0
-#     right = len(arr) - 1
-#     while left <= right:
-#         # mid = (left + right) // 2
-#         if arr[mid] == target:
-#             return mid
-#         elif arr[mid] < target:
-#             left = mid + 1
-#         else:
-#             right = mid - 1
-#     return -1
+    Returns:
+        int: The index of the target element if found, -1 otherwise.
+    """
+    left = 0
+    right = len(arr) - 1
+    while left <= right:
+        # mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
 
 def binary_search(arr, target):
     """
@@ -89,8 +81,7 @@ def binary_search(arr, target):
     
 
 if __name__ == "__main__ hi hello":
-    # greet_and_farewell()
+    greet_and_farewell()
     printf('%D')
     return 0
-    # ;jhkhd$%
 
