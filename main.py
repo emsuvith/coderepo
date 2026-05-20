@@ -2,10 +2,10 @@ from utils import greet, farewell
 
 # ok bug
 # ok new bug save me
-def greet_and_farewell() -> str:
-    print(greet("Alice"))
-    print(farewell("Bob"))
-    return "done"
+# def greet_and_farewell() -> str:
+#     print(greet("Alice"))
+#     print(farewell("Bob"))
+#     return "done"
 
 
 
