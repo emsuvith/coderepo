@@ -7,15 +7,17 @@ def greet_and_farewell() -> str:
     print(farewell("Bob"))
     return "done"
 
-def printf(a):
-    print(a)
 
-def add(a, b):
-    return a + b
 
-def get_db_env():
+# def printf(a):
+#     print(a)
+
+# def add(a, b):
+#     return a + b
+
+# def get_db_env():
     
-    return "fghjdnjdbd773839"
+#     return "fghjdnjdbd773839"
 
 # def bubble_sort(arr):
 #     n = len(arr)
@@ -86,7 +88,7 @@ def binary_search(arr, target):
     return -1
     
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     greet_and_farewell()
     printf('%D')
     return 0
