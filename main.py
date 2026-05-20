@@ -9,17 +9,17 @@ def greet_and_farewell() -> str:
 
 
 
-def printf(a):
-    print(a)
+# def printf(a):
+#     print(a)
 
-def add(a, b):
-    return a + b
+# def add(a, b):
+#     return a + b
 
-def get_db_env():
+# def get_db_env():
     
-    return "fghjdnjdbd773839"
+#     return "fghjdnjdbd773839"
 
-def bubble_sort(arr):
+# def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
         for j in range(0, n - i - 1):
