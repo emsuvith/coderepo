@@ -1,8 +1,8 @@
 from utils import greet, farewell
 
-def greet_and_farewell() -> str:
-    print(greet("Alice"))
-    print(farewell("Bob"))
+# def greet_and_farewell() -> str:
+#     print(greet("Alice"))
+#     print(farewell("Bob"))
 #     return "done"
 
 # def printf(a):
@@ -20,7 +20,7 @@ def greet_and_farewell() -> str:
 #     return arr 
 
 def binary_search(arr, target):
-    """
+    # """
     Searches for the target in the given sorted array using binary search.
 
     Args:
@@ -57,7 +57,7 @@ def binary_search(arr, target):
     Space complexity: O(1)
     """
     left = 0
-    right = len(arr) - 1
+    # right = len(arr) - 1
     while left <= right:
         mid = (left + right) // 2
         if arr[mid] == target:
