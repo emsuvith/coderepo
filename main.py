@@ -19,7 +19,7 @@ def add(a, b):
     
 # #     return "fghjdnjdbd773839"
 
-# # def bubble_sort(arr):
+def bubble_sort(arr):
 #     n = len(arr)
 #     for i in range(n):
 #         for j in range(0, n - i - 1):
