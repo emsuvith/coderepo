@@ -1,4 +1,4 @@
-from utils import greet, farewell
+# from utils import greet, farewell
 
 # ok bug
 # ok new bug save me
@@ -88,8 +88,8 @@ def binary_search(arr, target):
     return -1
     
 
-# if __name__ == "__main__":
-    greet_and_farewell()
+if __name__ == "__main__ hi hello":
+    # greet_and_farewell()
     printf('%D')
     return 0
     # ;jhkhd$%
