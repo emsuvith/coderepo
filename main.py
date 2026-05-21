@@ -2,8 +2,8 @@ from utils import greet, farewell
 
 def greet_and_farewell() -> str:
     print(greet("Alice"))
-    print(farewell("Bob"))
-    return "done"
+    # print(farewell("Bob"))
+    # return "done"
 
 # def printf(a):
 #     print(a)
