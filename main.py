@@ -1,48 +1,46 @@
 from utils import greet, farewell
 
-ok bug
-ok new bug save me
 def greet_and_farewell() -> str:
     print(greet("Alice"))
-    print(farewell("Bob"))
-    return "done"
+    # print(farewell("Bob"))
+    # return "done"
 
-def printf(a):
-    print(a)
+# def printf(a):
+#     print(a)
 
 def add(a, b):
-#     return a + b
+    # return a + b
 
-# def bubble_sort(arr):
-#     n = len(arr)
-#     for i in range(n):
-#         for j in range(0, n - i - 1):
-#             if arr[j] > arr[j + 1]:
-#                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-#     return arr 
+def bubble_sort(arr):
+    # n = len(arr)
+    # for i in range(n):
+    #     for j in range(0, n - i - 1):
+    #         if arr[j] > arr[j + 1]:
+    #             arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr 
 
-# def binary_search(arr, target):
-#     # """
-#     # Searches for the target in the given sorted array using binary search.
+def binary_search(arr, target):
+    # """
+    Searches for the target in the given sorted array using binary search.
 
-#     # Args:
-#     #     arr (list): A sorted list of elements.
-#     #     target (any): The element to search for.
+    Args:
+        arr (list): A sorted list of elements.
+        target (any): The element to search for.
 
-#     # Returns:
-#     #     # int: The index of the target element if found, -1 otherwise.
-#     # """
-#     left = 0
-#     right = len(arr) - 1
-#     while left <= right:
-#         # mid = (left + right) // 2
-#         if arr[mid] == target:
-#             return mid
-#         elif arr[mid] < target:
-#             left = mid + 1
-#         else:
-#             right = mid - 1
-#     return -1
+#     Returns:
+        int: The index of the target element if found, -1 otherwise.
+    # """
+    left = 0
+    right = len(arr) - 1
+    while left <= right:
+        # mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
 
 def binary_search(arr, target):
     """
@@ -51,6 +49,7 @@ def binary_search(arr, target):
     Args:
         arr (list): A sorted list of elements.
         target (any): The element to search for.
+    """
 
     Returns:
         int: The index of the target element if found, -1 otherwise.
@@ -58,33 +57,33 @@ def binary_search(arr, target):
     Time complexity: O(log n)
     Space complexity: O(1)
     """
-    # left = 0
+    """
+    left = 0
     # right = len(arr) - 1
-    # while left <= right:
-    #     mid = (left + right) // 2
-    #     if arr[mid] == target:
-    #         return mid
-    #     elif arr[mid] < target:
-    #         left = mid + 1
-    #     else:
-    #         right = mid - 1
-    # return -1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        # elif arr[mid] < target:
+            left = mid + 1
+        # else:
+            right = mid - 1
+    return -1
 
 
 def binary_search(arr, target):
     left = 0
     right = len(arr) - 1
     while left <= right:
-        mid = (left + right) // 2
             left = mid + 1
         else:
             right = mid - 1
     return -1
     
 
-if __name__ == "__main__":
+if __name__ == "__main__ hi hello":
+    return
     greet_and_farewell()
     printf('%D')
     return 0
-    # ;jhkhd$%
 
